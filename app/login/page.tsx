@@ -34,10 +34,8 @@ export default function LoginPage() {
 
   // Show login component for unauthenticated users
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="max-w-md w-full">
-        <Auth />
-      </div>
+    <div className="min-h-screen w-full">
+      <Auth />
     </div>
   )
 }
